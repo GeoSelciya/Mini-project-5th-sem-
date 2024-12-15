@@ -1,0 +1,57 @@
+Deep Fake detection has become an increasingly important area of research in recent years, as 
+
+advances in machine learning and computer vision have made it easier to create convincing fake 
+
+images and videos. The goal of this project is to develop a deep learning-based approach to detect 
+
+Deep Fakes, with the aim of improving the accuracy and reliability of current Deep Fake detection 
+
+methods.
+
+Deep Fakes are AI-generated images, videos, and audios that are indistinguishable from real 
+
+content. They pose a significant threat to society, as they can be used for malicious purposes, 
+
+such as spreading fake news, defaming individuals, and manipulating public opinion. Therefore, 
+
+the detection of deepfakes is of utmost importance to safeguard the integrity of digital media.
+
+In this project, we propose a deep learning-based approach for deepfake detection. Our approach 
+
+consists of two main parts: (1) feature extraction and (2) classification. For feature extraction, we 
+
+use the ResNet-50 architecture pre-trained on the ImageNet dataset, which has shown promising 
+
+results in various computer vision tasks. We extract the features from the last layer of the 
+
+ResNet-50 network, which serves as a bottleneck layer. This layer contains high-level semantic 
+
+information that is crucial for deepfake detection.
+
+Next, we feed the extracted features into a classifier to distinguish between real and fake images. 
+
+We experiment with various classifiers, including support vector machines (SVMs), logistic 
+
+regression, and a deep neural network. We evaluate the performance of our approach on two 
+
+publicly available datasets: the DeepFake Detection Challenge (DFDC) dataset and the CelebDF dataset. We compare our approach with state-of-the-art methods and show that it achieves 
+
+superior performance in terms of accuracy, precision, recall, and F1 score.
+
+We also analyze the robustness of our approach against different types of attacks, such as image 
+
+compression, resizing, and blurring. Our results show that our approach is highly robust against 
+
+these attacks, indicating its potential for real-world applications.
+
+Finally, we discuss the limitations of our approach and suggest future directions for research. 
+
+One of the main limitations of our approach is that it requires a large amount of labeled data to 
+
+achieve optimal performance. Moreover, our approach is susceptible to adversarial attacks, 
+
+which can be used to fool the classifier into misclassifying deep fakes as real content. Therefore, 
+
+future research should focus on developing more robust and efficient deepfake detection methods 
+
+that can withstand various types of attacks and require fewer labeled data.
